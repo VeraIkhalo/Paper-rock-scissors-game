@@ -1,0 +1,199 @@
+html, body{
+	height: 100%;}
+
+body{
+font-family:poppins, sans-serif;
+padding:0;
+margin:0;}
+
+header{background-color: #ecf0f1;
+height:15%;
+width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+box-sizing:border-box;
+margin-bottom:5px;
+margin-top:5px;}
+
+.container{background-color: #2C3E50;
+height:85%;
+box-sizing:border-box;
+width:100%;
+padding-top:30px;
+position:relative;}
+
+.score-container{
+color:hsl(0 0% 100%);
+display:flex;
+justify-content:center;}
+
+.you, .com{margin-left: 30px;
+margin-right: 30px;
+padding:2px;
+width:40px;
+background-color:rgb(255 0 0);}
+
+#score{
+position:absolute;}
+
+.buttons{
+display:flex;
+justify-content:center;}
+
+
+
+#paper, #rock, #scissors{width:70px;
+height:70px;
+border-radius:50%;
+outline:none;
+border:none;
+display:flex;
+justify-content:center;
+align-items:center;
+margin:20px 10px 10px 10px;
+background-color:hsl(0 0% 100%);
+font-size:30px;
+color:hsl(0 0% 0%);}
+
+
+#paper:hover, #rock:hover, #scissors:hover{
+	width:65px;
+height:65px;
+border:1px solid blue;
+color:hsl(0 0% 0%);
+cursor:pointer;
+background-color:hsl(0 0% 100%);}
+
+#challenge{
+color:hsl(0 0% 100%);
+font-size:30px;
+display:flex;
+justify-content:space-between;
+display:none;}
+
+ #who{position:absolute;
+ top:34%;
+ left:48%;}
+ 
+ #ComObject{ width:70px;
+height:70px;
+border-radius:50%;
+outline:none;
+color:hsl(0 0% 0% );
+background-color:hsl(0 0% 100% );
+border:1px solid hsl(0 0% 100%); 
+display:flex;
+align-items:center;
+justify-content:center;
+position:absolute;
+font-size:30px;
+left:60%;
+top:35%;}
+ 
+#YourObject {width:70px;
+height:70px;
+border-radius:50%;
+outline:none;
+color:hsl(0 0% 0% );
+background-color:hsl(0 0% 100% );
+border:1px solid hsl(0 0% 100%); 
+display:flex;
+align-items:center;
+justify-content:center;
+position:absolute;
+left:38%;
+top:35%;
+font-size:30px;}
+  
+ 
+ .who{position:absolute;
+ left:38%;
+ top:48%;}
+ 
+ .whoo{position:absolute;
+ left:60%;
+ top:48%;}
+ 
+ 
+ @media(min-width:280px){
+#YourObject{position:absolute;
+left:7%;
+top:55%;}
+
+#ComObject{position:absolute;
+left:70%;
+top:55%;}
+
+.who{position:absolute;
+ left:14%;
+ top:75%;
+ font-size:15px;}
+ 
+.whoo{position:absolute;
+ left:70%;
+ top:75%;
+ font-size:15px;}
+
+ #who{position:absolute;
+ top:55%;
+ left:37%;
+ font-size:15px;}	
+ }
+ 
+ @media(min-width:320px){
+#YourObject{position:absolute;
+left:7%;
+top:55%;}
+
+#ComObject{position:absolute;
+left:73%;
+top:55%;}
+
+.who{position:absolute;
+ left:12%;
+ top:48%;
+ font-size:15px;
+ top:75%;}
+ 
+.whoo{position:absolute;
+ left:73%;
+ top:48%;
+ font-size:15px;
+ top:75%;}
+
+ #who{position:absolute;
+ top:34%;
+ left:37%;
+ font-size:15px;
+ top:55%;}	}
+ 
+@media(min-width:1000px){
+#YourObject{position:absolute;
+left:38%;
+top:35%;}
+
+#ComObject{position:absolute;
+left:58%;
+top:35%;}
+
+.who{position:absolute;
+ left:38%;
+ top:48%;
+ font-size:30px;}
+ 
+.whoo{position:absolute;
+ left:57%;
+ top:48%;
+ font-size:30px;}
+
+ #who{position:absolute;
+ top:34%;
+ left:46%;
+ font-size:30px;}	}
+ 
+
+ 
+ 
+ 
+ 
